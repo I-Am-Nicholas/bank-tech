@@ -6,7 +6,12 @@ class Account
   end
 
 
-  def deposit
+  def deposit(money_in)
+    @balance += money_in
+  end
+
+  def withdraw(money_out)
+    @balance -= money_out
   end
 
 
